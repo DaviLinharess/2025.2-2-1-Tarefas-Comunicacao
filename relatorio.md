@@ -22,10 +22,10 @@ No Terminal B executei o cliente, que conseguiu conectar imediatamente.
 **Interação:**  
 - O cliente enviou: 
 
-![OláServidor](image.png)
+![OláServidor](img/image.png)
 - O servidor respondeu: 
 
-![RecebidoServidor](image-1.png)
+![RecebidoServidor](img/image-1.png)
 
 Após a troca, tanto cliente quanto servidor encerraram a conexão normalmente.  
 O servidor permaneceu ativo aguardando novas conexões, sem exceções.
@@ -48,19 +48,19 @@ O comportamento observado foi:
 **Evidências:**  
 - Servidor Aberto:
 
-![ServAberto](image-2.png)
+![ServAberto](img/image-2.png)
 - Cliente01 Manda mensagem: 
 
-![MsgCliente01](image-3.png)
+![MsgCliente01](img/image-3.png)
 - Cliente02 tenta mensagem: 
 
-![MsgCliente02](image-4.png)
+![MsgCliente02](img/image-4.png)
 - Recebimento do Servidor: 
 
-![RecebServidor](image-5.png)
+![RecebServidor](img/image-5.png)
 - Recebimento do Servidor Após Cliente1 sair: 
 
-![RecebServidor2](image-6.png)
+![RecebServidor2](img/image-6.png)
 
 Isso mostra que o atendimento foi um por um, pois o servidor só trata uma conexão por vez.
 
@@ -111,13 +111,13 @@ Os dois foram atendidos em paralelo, como esperado.
 **Evidência do paralelismo:**  
 - Cliente 1 iniciou: 
 
-![Parte4Cliente1](image-7.png)
+![Parte4Cliente1](img/image-7.png)
 - Cliente 2 iniciou: 
 
-![Parte4Cliente2](image-8.png)
+![Parte4Cliente2](img/image-8.png)
 - Servidor Recebendo os Dois: 
 
-![Parte4Servidor](image-9.png)
+![Parte4Servidor](img/image-9.png)
 
 Isso confirma que o servidor está realmente funcionando.
 
